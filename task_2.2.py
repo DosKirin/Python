@@ -1,8 +1,8 @@
-count = int(input('Введите кол-во элементов'))
+insert = int(input('Введите кол-во элементов'))
 my_lst =[]
 i = 0
 el = 0
-while i < count:
+while i < insert:
     my_lst.append(input('Введите следующее значение из списка '))
     i += 1
 
