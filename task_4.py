@@ -4,7 +4,6 @@
 
 n1 = input('Введите  целое число: ')
 x = 0
-for i in n1:
-    while int(i) > x:
-        x = int(i)
+while n1 > 0:
+    if n1
 print(x)
