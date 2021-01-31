@@ -16,5 +16,22 @@
 # “цена”: [20000, 6000, 2000],
 # “количество”: [5, 2, 7],
 # “ед”: [“шт.”]}
+goods = [ ]
+while input("Хотите выбрать продукт?: да или нет ") == 'да':
+    number = int(input("Введите название продукта:"))
+    features = {}
+    while input("Выберете параметры продукта? Enter да или нет?: ") == 'да':
+        feature_key = input("Введите пожелания к продукту: ")
+        feature_value = input("Введите цену продукта: ")
+        features[feature_key] = feature_value
+    goods.append(tuple([number, features]))
+print(goods)
 
-
+analitics = {}
+for good in goods:
+    for feature_key, feature_value in good[1].items():
+        if feature_key in analitics:
+            analitics[feature_key].append(feature_value)
+        else:
+         analitics[feature_key] = [feature_value]
+print(analitics)
