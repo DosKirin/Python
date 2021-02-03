@@ -9,5 +9,7 @@ def my_func(x, y):
 
 # x = input('Inset x: ')
 # y = input('Insert y: ')
+# у меня не получилось сделать код для ввода значений можешь подсказать
+
 
 print(my_func(4, -5))
