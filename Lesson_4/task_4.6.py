@@ -45,4 +45,9 @@ for el in cycle([1, 3, 5, 12]):
 #    твое решение для сравнения
 
 
+<<<<<<< HEAD
 from itertools import cycle
+=======
+from itertools import cycle
+
+>>>>>>> 85740d4b76b8c018b88ce1cc5b7c863684f403ce
