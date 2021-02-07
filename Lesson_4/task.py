@@ -9,3 +9,6 @@ prize = int(prize)
 salary = sap_h * cost_h + prize
 
 print(f'SLA {salary}')
+
+
+# тут у меня ничего не работает ошибка синтексиса на 11 строке
